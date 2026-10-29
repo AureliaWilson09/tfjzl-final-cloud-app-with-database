@@ -38,7 +38,6 @@
             </ul>
         </div>
     </nav>
-
     <!-- Page content -->
     <div class="container-fluid">
         <h2>{{ course.name }}</h2>
@@ -50,8 +49,7 @@
                 </div>
             {% endfor %}
         </div>
-        <!-- Course detail template changes go here -->
-        
+        <!-- Course detail template changes go here --> 
     {% if user.is_authenticated %}
     </br>
     <button class="btn btn-primary btn-block" data-toggle="collapse" data-target="#exam">Start Exam</button>
